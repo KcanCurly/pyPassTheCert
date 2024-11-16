@@ -7,7 +7,7 @@ setup(
     description="A simple way to read and write LAPS passwords from linux.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/KcanCurly/pyLAPS",
+    url="https://github.com/KcanCurly/pyPassTheCert",
     packages=find_packages(),
     install_requires=[
         "impacket",
