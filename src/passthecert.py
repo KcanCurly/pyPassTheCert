@@ -546,8 +546,7 @@ class ManageComputer:
     def generateComputerName(self):
         return 'DESKTOP-' + (''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8)) + '$')
 
-# Process command-line arguments.
-if __name__ == '__main__':
+def main():
     # Init the example's logger theme
     logger.init()
     print((version.BANNER))
@@ -697,3 +696,8 @@ if __name__ == '__main__':
             import traceback
             traceback.print_exc()
         print(str(e))
+
+
+# Process command-line arguments.
+if __name__ == '__main__':
+    main()
